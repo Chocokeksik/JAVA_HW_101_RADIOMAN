@@ -60,7 +60,7 @@ public class Radio {
         if (currentVolume > 0) {
             currentVolume = currentVolume - 1;
         } else {
-            currentStation = 9;
+            currentVolume = 10;
         }
     }
 
